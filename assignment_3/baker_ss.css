@@ -1,11 +1,7 @@
 body{
     background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-p.subtext{
-    font-size: 0.875rem;   
-    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 p{
     font-size: 12pt; 
@@ -19,7 +15,14 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
-p.center{
+h3{
+  font-family: 'Times New Roman', Times, serif;  
+}
+footer{
+    font-style: italic;
+    font-size: 12px;
+    color: gray;
+}
+figure{
     text-align: center;
-    margin-bottom: -3%;
 }
