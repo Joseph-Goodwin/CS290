@@ -2,23 +2,89 @@
 <html>
   <head>
     <title>My test page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <style>
     body{
         background-color: #d9d9d9;
+        margin-bottom: 0;
+        margin-top: 0;
     }
     h1, h2, h3{
-        text-indent: 8%
+        text-indent: 100px
     }
     img{
       width: 45%;
     }
     p{
-      line-height: .5;
-      text-indent: 8%;
+      line-height: 1;
+      text-indent: 100px;
+      text-decoration: none;
+    }
+    .menu{
+      list-style-type: none;
+      width: 300px;
+      background: lightgray;
+      padding: 1px;
+      margin-left: 8%;
+      margin-top: -20px;
+    }
+    .header{
+      list-style-type: none;
+      width: 300px;
+      background: lightgray;
+      padding: 0;
+      width: 100%;
+      height: 45px;
+      margin-top: 0;
+    }
+    li{
+      display: block;
+      padding: 0;
+      color: black;
+      font-size: 20px;
+      display: inline;
+    }
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    li:hover{
+      color: white;
+      background-color: gray;
+    }
+    .hi:hover {
+      color:red;
+      background-color: gray;
+      display: inline-block !important;
+    }
+    .dropdown{
+      display: none
+    }
+    div{
+      display: none;
     }
   </style>
   <body>
+    <ul class="header">
+      <li><a href="index.html" class="fa fa-home" style="font-size: 45px"></a></li>
+      <li class="hi">Homework
+          <div>
+            <ul>
+              <li>Line 1</li>
+            </ul>
+            </div>
+        </ul>
+      </li>
+    </ul>
+    <div>
+        <ul class="menu">
+          <li><a href="assignment_1/miss_baker.html">Assignment 1 - Miss Baker</a></li>
+          <li><a href="assignment_2/rock_climbing.html">Assignment 2- My Hobby</a></li>
+          <li><a href="assignment_3/calander.html">Assignment 3 - January Calander</a></li>
+          <li><a href="assignment_3/miss_baker_remake.html">Assignment 3 - Miss Baker Remake</a></li>
+        </ul>
+      </div>
     
     <h1>
         Joseph Goodwin - <span style="color:black; font-size: 20pt;">biogrpahy page</span>
@@ -29,15 +95,12 @@
     <h2>My hobbies</h2>
       <p>One of my hobbies includes indoor rock climbing, which I've been doing for around 6 months now. </p>
       <p>I also enjoy gaming when I'm not stuck at work or doign school work.</p>
-      
-    <h3>Homework assignments</h3>
-      <a href="assignment_1/miss_baker.html"><p>Assignment 1 - Miss Baker</p></a>
-      <a href="assignment_2/rock_climbing.html"><p>Assignment 2- My Hobby</p></a>
-      <a href="assignment_3/calander.html"><p>Assignment 3 - January Calander</p></a>
-      <a href="assignment_3/miss_baker_remake.html"><p>Assignment 3 - Miss Baker Remake</p></a>
-      <p>Assignment 4</p>
-      <p>Assignment 5</p>
-      <p>Assignment 6</p>
-      <p>Assignment 7</p>
+    <h2>Homework</h2>
+    <ul class="menu">
+        <li><a href="assignment_1/miss_baker.html">Assignment 1 - Miss Baker</a></li>
+        <li><a href="assignment_2/rock_climbing.html">Assignment 2- My Hobby</a></li>
+        <li><a href="assignment_3/calander.html">Assignment 3 - January Calander</a></li>
+        <li><a href="assignment_3/miss_baker_remake.html">Assignment 3 - Miss Baker Remake</a></li>
+      </ul>
   </body>
 </html>
