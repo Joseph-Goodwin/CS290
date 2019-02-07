@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    
+    <style>
+        body{
+        background-image: linear-gradient(to right,purple, blueviolet);
+        }
+        header{
+            background: rgb(175, 187, 6);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+        }
+        a{
+            text-decoration: none;
+            color:  rgb(175, 187, 6);
+        }
+        a:hover{
+            color: white;
+        }
+        a:active
+        {
+            color: gray;
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        article{
+            background-color: rgb(182, 185, 173);
+            mix-blend-mode: lighten;
+            padding: 5px;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 10px;
+            flex: 300px;
+            max-width: 400px;
+        }
+        ul{
+            display: flex;
+            justify-content:space-around;
+            list-style: none;
+            background-color: black;
+            color:rgb(175, 187, 6);
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 0px;
+            height: 30px;
+        }
+        li{
+            display: inline-flex;
+            align-items: center
+        }
+        hr{
+            color: black;
+            margin-left: 3%;
+            margin-right: 3%
+        }
+        footer{
+            margin-left: 5%;
+        }
+        h2{
+            margin-top: 0px;
+            text-decoration: underline;
+            margin-bottom: -10px;
+            text-align: center;
+        }
+        p{
+            text-indent: 25px;
+        }
+    </style>
+<body>
+    <header>
+        <h1>FlexBoxes!</h1>
+    </header>
+    <ul>
+        <li> <a href = "https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout">Wikipedia</a></li>
+        <li><a href= "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Mozilla</a></li>
+        <li><a href= " https://www.w3schools.com/css/css3_flexbox.asp">w3Schools</a></li>
+        <li><a href= " https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></li>
+    </ul>
+    <main>
+        <article>
+            <h2>Introduction</h2>
+                <p><abbr>CSS</abbr> Flexible Box Layout, commonly known as Flexbox, is a <abbr>CSS3</abbr> web layout model. It is in the W3C's candidate recommendation (CR) stage. The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size (or device).</p>
+        </article>
+        <article>
+            <h2>Concepts</h2>
+            <p>Most web pages are written in a combination of <abbr>HTML</abbr>(Hypertext Markup Language) and <abbr>CSS</abbr> (Cascading Style Sheets). In short, <abbr>HTML</abbr> specifies the content and logical structure of the page, while the <abbr>CSS</abbr> specifies how it looks: its colors, fonts, formatting, layout, and styling.
+
+                    <abbr>CSS</abbr> flex-box layout is a particular way to specify the layout of <abbr>HTML</abbr> pages.
+                    
+                    One of the most defining features of the flex layout is its ability to form-fit, based on its viewing environment. Flex boxes can adjust in size—either decreasing, to avoid unnecessarily monopolizing space, or increasing to make room for contents to be constrained within its boundaries. Moreover, the flex layout is less restrictive in terms of content flow than those, for example, of the block and inline display types, which are generally uni-directional. Indeed, not only can flex directional flow be specified, at the style level, as rightwards, leftwards, upwards, or downwards; individual items within a flex container may also be automatically reordered and rearranged to suit the available layout space</p>
+        </article>
+        <article>
+            <h2>History</h2>
+            <p>In the <time>2000s</time> the intensive use of the Web by mobile agents motivated "liquid layouts" and responsive elements for the growing variety of screen sizes. In the <time>2010s</time>, the intensive use of popular JavaScript layout frameworks, such as Bootstrap, inspired <abbr>CSS</abbr> flex-box and grid layout specifications.</p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+            <i>“CSS Flexible Box Layout.” Wikipedia, Wikimedia Foundation, 23 Jan. 2019, en.wikipedia.org/wiki/CSS_Flexible_Box_Layout#cite_note-2.</i>
+    </footer>
+</body>
+</html>
