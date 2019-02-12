@@ -1,0 +1,50 @@
+body{
+    background-color: darkmagenta;
+    background-image: linear-gradient(to right,purple,blue);
+    }
+    .container{
+        display: grid;
+        /*grid-template-columns: [Sunday]  90px [Monday] 90px [Tuesday] 90px [Wednesday] 90px [Thursday] 90px [Friday] 90px [Saturday] 90px;*/
+        grid-template-columns: repeat(7, 90px);
+        grid-template-rows: repeat(5,90px);
+        justify-content: center;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(7, 90px);
+        grid-template-rows: repeat(2,30px);
+        justify-content: center;
+    }
+    .month{
+        grid-column: 1/8;
+        height: 30px;
+        background-color: green;
+        text-align: center;
+        color: purple;
+        font-size: 20px;
+        font-weight: bolder;
+        border: 1px solid black;
+    }
+    .weekday{
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        background-color: lightgreen;
+        color: purple;
+        border: 1px solid black;
+    }
+    .box{
+        display: grid;
+        background-color:yellow;
+        height: 90px;
+        border: 1px solid black;
+        grid-template-columns: repeat(9,10px)
+    }
+    .date
+        {
+            display: grid;
+            grid-column: 8;
+    }
+    .date{
+        display: grid
+    }
