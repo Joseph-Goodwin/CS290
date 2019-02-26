@@ -1,0 +1,26 @@
+body{
+    background:darkslategray;
+    color: white;
+}
+main{
+    display: flex;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+div{
+    display: block;
+    background:dimgray;
+    width: 200px;
+    height:fit-content;
+}
+form{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+strong{
+    color: black;
+    background-color:lightgray;
+}

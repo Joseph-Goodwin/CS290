@@ -5,50 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Javascript</title>
+    <link rel="stylesheet" type="text/css " href="javascript_ss.css">
 </head>
 <style>
-    body{
-        background:darkslategray;
-        color: white;
-    }
-    main{
-        display: flex;
-    }
-    h1{
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    div{
-        display: block;
-        background:dimgray;
-        width: 300px;
-        height:fit-content;
-    }
-    label{
-        margin-left: 5px;
-        display: flex;
-    }
-    input{
-        margin-left: 5px;
-    }
 </style>
 <body>
     <h1>Profile Creator</h1>
     <main>
-        <div>
-            <label for="nameField">Name: </label><input type="text" id="nameField" class="nameField">
-            <label for="ageField">Age: </label><input type="text" id="ageField" class="ageField">
-            <label for="basicInfoField">Basic Info: </label><input type="text" id="basicInfoField" class="basicInfoField">
-            <input type="submit" value="Enter" class="guessSubmit">
+        <div id = "form">
+            <form>
+                Name:<br>
+                <input type="text" class="name"><br>
+                Age:<br>
+                <input type="text" class ="age"><br>
+                Basic-Info:<br>
+                <input type="text" class ="basicInfo"><br><br>
+                <!-- <button>Enter</button> -->
+                <input type="button" value="Enter">
+            </form>
         </div>
-        <div></div>
-        <p>My plan was to make is so when you entered in text into the 2 textfields and hit enter, it would create a div with that information but I am having a really hard time with javascript and will be focusing on the wes bos videos to hopefully better understand.</p>
     </main>
-    <script>
-        const name;
-        const age;
-        const basicInfo;
-    </script>
+    <script src = "javascript_js.js"></script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body id = "body">
+    <div>
+        <h1>Learning JavaScript</h1>
+        <h3>
+            <button onclick="bg()">Red</button>
+        </h3>
+    </div>
+    <script>
+
+        function bg(){
+            var background = document.getElementById("body");
+            var black = "red";
+            body.style.backgroundColor = black;
+
+        }
+        //alert('script tags work');
+        //datatypes
+            //number
+            //string
+            //array
+            //object
+        var number1 = '35';
+        var number2 = '35';
+        //alert('my number is' + number1 + number2);
+        //variables cant contain lettter numebr, underscores, dollar signs
+        //begin with a letter or _ or $
+        
+        //hwo to make an array
+        var colors = ['red', 'blue', 'green'];
+        //alert(colors[0]);//accses the first position in the array
+        colors[3] = 'green';
+        //alert(colors);
+        colors.push('purple');
+        //alert(colors.length);//number of values in array
+        //alert(colors.sort);//sorts array by values????
+        //alert(colors.reverse);//reverse order form when it was created;
+
+        var numbers = [12,43,123,543,1234,5];
+        numbers.reverse();
+        
+        numbers.forEach(function(number){
+            console.log(number);
+        });//Takes each element in numbers and creates a temporary veriable called number and displays it in the console log
+
+        //objects
+        //object literal
+        var person = {
+            firstName: 'mike',
+            lastName: 'jones',
+            age: 20,
+            children: ["Jess", "Nick", "Mica"],
+            address: {
+                street: '555 somethign street',
+                City: 'Boston'
+            },//object in an object
+            fullName : function(){
+                return  this.firstName + " "+this.lastName
+            },//function in a object
+        }   
+        console.log(person.children[2]);
+        console.log(person.address);
+        console.log(person.address.City);
+        console.log(person.fullName());
+
+        //object constructor
+        var apple = new Object();
+        apple.color = 'red';
+        apple.shpe = 'round';
+        apple.describe = function(){
+            return 'An apple is the color ' + this.color;
+        };
+        console.log(apple.describe());
+
+        //constructor pattern
+        function fruit(name, color, shape){
+            this.name = name;
+            this.color = color;
+            this.shape = shape;
+        };
+        var grape = new fruit('grape','purple','oval');
+        console.log(grape);
+    </script>
+</body>
+</html>
