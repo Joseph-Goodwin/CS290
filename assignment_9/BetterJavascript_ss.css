@@ -1,0 +1,68 @@
+html{
+    background-color: #35477c;
+    color: #ffc600;
+}
+div{
+    display: flex;
+    background-color: rgb(67, 83, 172);
+    width: 250px;
+    min-height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-flow: row wrap;
+    max-height: fit-content;
+}
+input{
+    width: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+select{
+    width: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    
+}
+h2{
+    width: 250px; 
+    text-align: center;
+    text-decoration-line: underline;
+    display: block;
+}
+p{
+    display: block;
+    width: 250px; 
+    text-align: center;
+    height: 0px;
+    padding: 0px;
+}
+.enter1{
+    margin-top: 50px;
+    width: 50px;
+    text-align: right;
+}
+.enter2{
+    margin-top: 50px;
+    width: 50px;
+    text-align: right;
+}
+.enter3{
+    margin-top: 50px;
+    width: 50px;
+    text-align: right;
+}
+button{
+    margin-left: -230px;
+    margin-top: 300px;
+    height: 20px;
+}
+.check{
+    display: inline;
+    font-size: 200px;
+}
