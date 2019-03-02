@@ -12,7 +12,12 @@ div{
     flex-flow: row wrap;
     max-height: fit-content;
 }
-input{
+#b{
+    width: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#a{
     width: 210px;
     margin-left: 20px;
     margin-right: 20px;
@@ -36,33 +41,11 @@ h2{
     display: block;
 }
 p{
-    display: block;
     width: 250px; 
     text-align: center;
-    height: 0px;
-    padding: 0px;
-}
-.enter1{
-    margin-top: 50px;
-    width: 50px;
-    text-align: right;
-}
-.enter2{
-    margin-top: 50px;
-    width: 50px;
-    text-align: right;
-}
-.enter3{
-    margin-top: 50px;
-    width: 50px;
-    text-align: right;
 }
 button{
     margin-left: -230px;
     margin-top: 300px;
     height: 20px;
-}
-.check{
-    display: inline;
-    font-size: 200px;
 }
